@@ -55,9 +55,10 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Project.html">Projects</a></li>
+        <li><a href="Contact.jsp">Contact</a></li>
+        <li><a href="Admin">Admin</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -78,7 +79,7 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <hr>
       <h3>Test</h3>
-      <p>Lorem ipsum...</p>
+      <p>Please click on the following link to see the example of<a href="http://localhost:8080/mtb_dynamic_web_project/hello-world">Dynamic web application using Maven in Eclipse IDE</a> </p>
     </div>
     <div class="col-sm-2 sidenav">
       <div class="well">
@@ -92,17 +93,15 @@
 </div>
 
 <footer class="container-fluid text-center">
-  <p>Footer Text</p>
+  <p></p>
 </footer>
 
-<h1 calss="ha" align='center'>Welcome to <a href='http://www.mitrajt.com/'>Mitrajit's Tech Blog</a><h1>
-<h2 align='center'>
 
 
 
 
 	Please click on the following link to see the example of 
-	<a href="http://localhost:8080/mtb_dynamic_web_project/hello-world">Dynamic web application using Maven in Eclipse IDE</a>
-</h2>
+	<--!<a href="http://localhost:8080/mtb_dynamic_web_project/hello-world">Dynamic web application using Maven in Eclipse IDE</a>
+></h2>
 </body>
 </html>
