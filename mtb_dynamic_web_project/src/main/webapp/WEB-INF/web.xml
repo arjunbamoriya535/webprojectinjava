@@ -4,4 +4,24 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Admin</servlet-name>
+  	<display-name>Admin</display-name>
+  	<description></description>
+  	<servlet-class>servlets.Admin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminHome</servlet-name>
+  	<display-name>AdminHome</display-name>
+  	<description></description>
+  	<servlet-class>servlets.AdminHome</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Admin</servlet-name>
+  	<url-pattern>/Admin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminHome</servlet-name>
+  	<url-pattern>/AdminHome</url-pattern>
+  </servlet-mapping>
 </web-app>

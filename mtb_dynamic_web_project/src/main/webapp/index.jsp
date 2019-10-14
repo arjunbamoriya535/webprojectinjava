@@ -55,9 +55,9 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="About.html">About</a></li>
-        <li><a href="Project.html">Projects</a></li>
-        <li><a href="Contact.jsp">Contact</a></li>
+        <li><a href="/About.html">About</a></li>
+        <li><a href="/Project.html">Projects</a></li>
+        <li><a href="/Contact.jsp">Contact</a></li>
         <li><a href="Admin">Admin</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
